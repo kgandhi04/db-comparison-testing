@@ -1,0 +1,16 @@
+default:
+  dev:
+    host: "dev-db-host"
+    database: "dev_db"
+    user: "dev_user"
+    password: "dev_password"
+  test:
+    host: "test-db-host"
+    database: "test_db"
+    user: "test_user"
+    password: "test_password"
+  prod:
+    host: "prod-db-host"
+    database: "prod_db"
+    user: "prod_user"
+    password: "prod_password"
